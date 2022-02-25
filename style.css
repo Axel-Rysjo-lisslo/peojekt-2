@@ -89,7 +89,7 @@ margin: 25px;
 
 .SeaDogRep{
     display: flex;
-    border: solid white;
+    border:  solid white;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: nowrap;
