@@ -45,6 +45,7 @@ header{
 
 height: 600px;
 width: 1520px;
+border-radius: 5px;
 }
 
 .athenaRep{
@@ -54,6 +55,7 @@ width: 1520px;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-flow: wrap;
+    border-radius: 5px;
    
 
 
@@ -63,6 +65,7 @@ width: 1520px;
 border: solid white;
 width: 450px;
 margin: 25px;
+border-radius: 5px;
 
 }
 
@@ -75,7 +78,7 @@ margin: 25px;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-flow: wrap;
-
+    border-radius: 5px;
 
 }
 
@@ -84,17 +87,18 @@ margin: 25px;
     border: solid white;
     width: 450px;
     margin: 25px;
+    border-radius: 5px;
 
 }
 
-.SeaDogRep{
+.SeaDogeRep{
     display: flex;
     border:  solid white;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-flow: wrap;
-
+    border-radius: 5px;
 }
 
 .Seadog{
@@ -102,5 +106,36 @@ margin: 25px;
     border: solid white;
     width: 450px;
     margin: 25px;
+    border-radius: 5px;
+
+}
+
+.Reputat{
+ border: solid white;
+display: flex;
+justify-content: space-between;
+border-radius: 5px;
+}
+
+
+footer{
+border: solid black;
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border-radius: 5px;
+
+}
+
+.Aboo{
+font-size: 25px;
+color: white;
+
+}
+
+.Kontakt{
+font-size: 25px;
+color: White;
 
 }
