@@ -1,5 +1,6 @@
 body{ 
     background-color: rgb(69, 69, 69);
+    width: 100%;
 }
 
 header{
@@ -50,7 +51,7 @@ border-radius: 5px;
 
 .athenaRep{
     display: flex;
-    border: solid white;
+    
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -73,7 +74,7 @@ border-radius: 5px;
 .TALLTALES{
 
     display: flex;
-    border: solid white;
+    
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -93,7 +94,6 @@ border-radius: 5px;
 
 .SeaDogeRep{
     display: flex;
-    border:  solid white;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -111,10 +111,12 @@ border-radius: 5px;
 }
 
 .Reputat{
- border: solid white;
-display: flex;
-justify-content: space-between;
-border-radius: 5px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align: center;
+    height: 100px;
+    
+
 }
 
 
@@ -139,3 +141,140 @@ font-size: 25px;
 color: White;
 
 }
+
+
+
+
+button{
+
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: rgb(182, 0, 0);
+    font-size: 25px;
+    margin: 15px 15px;
+    background: rgba(0,0,0,0.09);
+  
+
+}
+span{
+    display: block;
+    padding: 20px 20px;
+  }
+
+
+button::before, button::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  
+  span::before, span::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  button:hover::before, button:hover::after{
+    width: 100%;
+  }
+  button:hover span::before, button:hover span::after{
+    height: 100%;
+  }
+  /*----- button 1 -----*/
+  .Rep1::before, .Rep1::after{
+    transition-delay: 0.2s;
+  }
+  .Rep1 span::before, .Rep1 span::after{
+    transition-delay: 0s;
+  }
+  .Rep1::before{
+    right: 0;
+    top: 0;
+  }
+  .Rep1::after{
+    left: 0;
+    bottom: 0;
+  }
+  .Rep1 span::before{
+    left: 0;
+    top: 0;
+  }
+  .Rep1 span::after{
+    right: 0;
+    bottom: 0;
+  }
+  .Rep1:hover::before, .Rep1:hover::after{
+    transition-delay: 0s;
+  }
+  .Rep1:hover span::before, .Rep1:hover span::after{
+    transition-delay: 0.2s;
+  }
+  
+  /*----- button 2 -----*/
+  .Rep2::before, .Rep2::after{
+    transition-delay: 0.2s;
+  }
+  .Rep2 span::before, .Rep2 span::after{
+    transition-delay: 0s;
+  }
+  .Rep2::before{
+    right: 0;
+    top: 0;
+  }
+  .Rep2::after{
+    left: 0;
+    bottom: 0;
+  }
+  .Rep2 span::before{
+    left: 0;
+    top: 0;
+  }
+  .Rep2 span::after{
+    right: 0;
+    bottom: 0;
+  }
+  .Rep2:hover::before, .Rep2:hover::after{
+    transition-delay: 0s;
+  }
+  .Rep2:hover span::before, .Rep2:hover span::after{
+    transition-delay: 0.2s;
+  }
+  
+   /*----- button 3 -----*/
+   .Rep3::before, .Rep3::after{
+    transition-delay: 0.2s;
+  }
+  .Rep3 span::before, .Rep3 span::after{
+    transition-delay: 0s;
+  }
+  .Rep3::before{
+    right: 0;
+    top: 0;
+  }
+  .Rep3::after{
+    left: 0;
+    bottom: 0;
+  }
+  .Rep3 span::before{
+    left: 0;
+    top: 0;
+  }
+  .Rep3 span::after{
+    right: 0;
+    bottom: 0;
+  }
+  .Rep3:hover::before, .Rep3:hover::after{
+    transition-delay: 0s;
+  }
+  .Rep3:hover span::before, .Rep3:hover span::after{
+    transition-delay: 0.2s;
+  }
+
+  
